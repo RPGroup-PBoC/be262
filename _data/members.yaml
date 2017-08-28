@@ -1,0 +1,49 @@
+- name: Rob Phillips
+  title: Instructor
+  image: rob.jpg
+  email: phillips
+
+- name: Justin Bois
+  title: Special Adviser
+  image: bois.jpg
+  email: bois
+
+- name: Griffin Chure
+  title: TA
+  image: gchure.jpg
+  email: gchure
+
+- name: Vahe Galstyan
+  title: TA
+  image: vahe.jpg
+  email: vgalstya
+
+- name: Soichi Hirokawa
+  title: TA
+  image: soichi.jpg
+  email: shirokaw
+
+- name: Heun Jin Lee
+  title: TA
+  image: heunjin.jpg
+  email: heunjin
+
+- name: Muir Morrison
+  title: TA
+  image: muir.jpg
+  email: muir
+
+- name: Manuel Razo-Mejia
+  title: TA
+  image: manuel.jpg
+  email: mrazomej
+
+- name: Simón Álamos
+  title: Visiting TA - UC Berkely
+  image: simon.png
+  email: simon.alamos [at] berkeley [dot] edu
+
+- name: Armando Reimer
+  title: Visiting TA - UC Berkely
+  image: armando.jpg
+  email: areimer [at] berkeley [dot] edu

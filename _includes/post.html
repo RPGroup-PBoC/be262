@@ -1,0 +1,22 @@
+<div class="content" id="home">
+  <div id="sidebar-button">
+    <img src="{{ site.baseurl }}/images/sidebar-button.png">
+  </div>
+  <div id="post-info">
+    <div id="cover-photo-container">
+    </div>
+      <img id="cover-photo" width="1100px" height="200px;" src="{{ site.baseurl }}/images/{{ page.cover }}" style=" object-fit: cover; padding-bottom: 8em; padding-top: 10px; padding-left: 0em; margin-left: -1em; margin-right:-1em;">
+      <h1 id="title" style="font-weight:500; font-family: Raleway; position: relative; margin-top: -175px; padding-bottom: 10px; margin-left: 0em; color: #FFFFFF;  text-shadow: 0 0 15px #000000; font-size: 3em; border-bottom: 1px solid #FFFFFF; width: 30%;">{{ page.title }} </h1>
+
+    <div id="info-container">
+    </div>
+  </div>
+
+  <div class="post">
+    {{ content }}
+  </div>
+  <div class="colophon">
+    <p>
+    </p>
+  </div>
+</div>
