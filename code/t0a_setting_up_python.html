@@ -12058,7 +12058,7 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>There are several scientific Python distributions available for MacOS, Windows, and Linux. The two most popular, <a href="https://www.enthought.com/products/canopy/">Enthought Canopy</a> and <a href="https://www.continuum.io/why-anaconda">Anaconda</a> are specifically designed for scientific computing and data science work. For this course, we will use the Anaconda Python 3.5 distribution. To install the correct version, follow the instructions below.</p>
+<p>There are several scientific Python distributions available for MacOS, Windows, and Linux. The two most popular, <a href="https://www.enthought.com/products/canopy/">Enthought Canopy</a> and <a href="https://www.continuum.io/why-anaconda">Anaconda</a> are specifically designed for scientific computing and data science work. For this course, we will use the Anaconda Python 3.6 distribution. To install the correct version, follow the instructions below.</p>
 <ol>
 <li><p>Navigate to <a href="https://www.anaconda.com/downloads">the Anaconda download page</a> and download the Python 3.6 graphical installer.</p>
 </li>
@@ -12130,13 +12130,13 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>For this course (and your coding in 'real life'), it will help if you follow a specific directory structure for your code and data. During this course, you will  write a lot of Jupyter Notebooks and Python scripts that will load in data. <strong>For us to run your code, all data must be accessed through a <code>data</code> folder in the same directory as the notebook.</strong> To make this structure, open Atom and follow the instructions below.</p>
+<p>For this course (and your coding in 'real life'), it will help if you follow a specific directory structure for your code and data. During this course, you will  write a lot of Jupyter Notebooks and Python scripts that will load in data. To make this structure, open Atom and follow the instructions below.</p>
 <ol>
 <li><p>Navigate to <code>File -&gt; Add Project Folder</code> and make a new folder in your home directory. On MacOS and Linux, this will be in <code>/Users/YOUR_USERNAME/</code>. On Windows, this will be <code>C::/Users/YOUR_USERNAME/</code>.</p>
 </li>
 <li><p>Name this project <code>bootcamp</code>.</p>
 </li>
-<li><p>Now <code>bootcamp</code> should appear on the left-hand side of your editor. Right-click on <code>bi1</code> and make a new folder called <code>data</code>. This is where all of our data from the class will live.</p>
+<li><p>Now <code>bootcamp</code> should appear on the left-hand side of your editor. Right-click on <code>bootcamp</code> and make a new folder called <code>data</code>. This is where all of our data from the class will live.</p>
 </li>
 </ol>
 <p>You could also make this folder structure in your standard operating system manner. Now, if everything went well, your Atom editor window should look like this on the left-hand side.</p>
@@ -12231,7 +12231,7 @@ div#notebook {
 <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
 <span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sns</span>
 
-<span class="c1"># Generate a beautiful sinusoidal curve</span>
+<span class="c1"># Generate a beautiful curve</span>
 <span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="p">,</span> <span class="mi">500</span><span class="p">)</span>
 <span class="n">y</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="n">x</span><span class="p">)))</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
