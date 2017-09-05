@@ -16,7 +16,7 @@
 - name: Vahe Galstyan
   title: TA
   image: vahe.jpg
-  email: vgalstyan
+  email: vgalstya
 
 - name: Soichi Hirokawa
   title: TA
@@ -37,6 +37,11 @@
   title: TA
   image: manuel.jpg
   email: mrazomej
+
+- name: Franz Weinert
+  title: Microscope Coordinator
+  image: franz.jpg
+  email: weinert
 
 - name: Simón Álamos
   title: Visiting TA - UC Berkely
