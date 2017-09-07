@@ -1,0 +1,9 @@
+*.pdf
+*.DS_store
+*.tif*
+*.NEF
+.ipynb_checkpoints
+*.swp
+*.aux
+*.bbl
+*.log
