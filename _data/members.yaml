@@ -12,11 +12,16 @@
   title: TA
   image: sbeeler.jpg
   email: sbeeler
-  
+
 - name: Griffin Chure
   title: TA
   image: gchure.jpg
   email: gchure
+
+- name: Andres Collazo
+  title: Biological Imaging Facility Director
+  image: andres.jpg
+  email: acollazo
 
 - name: Vahe Galstyan
   title: TA
