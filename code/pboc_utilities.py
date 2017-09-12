@@ -1,0 +1,88 @@
+import numpy as np
+import matplotlib.pyplot as plt
+from mpl_toolkits.mplot3d import Axes3D
+import seaborn as sns
+
+def bar_plot (data, n_slices, dx = 1, dy = 1, z_max = 1, x_label = 'x',
+              y_label='y', z_label='z', elev_angle = 30, azim_angle = 115):
+    """
+    Makes a 3d bar plot of the data given as a 2d numpy array.
+
+    Parameters
+    ----------
+    data: 2d-array
+        Two-dimensional numpy array of z-values
+    n_slices: int
+        Number of 'slices' in y-directions to be used in the 3D plot
+    dx: float
+        Distance between neighboring x-positions
+    dy: float
+        Distance between neighboring y-positions
+    x_label: str
+        Label of the x-axis
+    y_label: str
+        Label of the y-axis
+    z_lable: str
+        Label of the z-axis
+    elev_angle: int
+        Alevation viewing angle
+    azim_angle: int
+        Azimuthal viewing angle
+    z_max: float
+        Default limit to the z-axis
+
+    Returns
+    -------
+    fig: pyplot figure object
+        Figure of the 3d-plot
+
+    ax: pyplot axes object
+        Axes object that contains the figure elements
+    """
+
+    # Initialize the figure object
+    fig = plt.figure(figsize = [10, 8])
+    ax = fig.add_subplot(111, projection='3d')
+
+    # Colors to indicate variation in y-axis
+    colors = sns.color_palette('YlGnBu_r', n_colors=n_slices+1)
+
+    # Dimensions of the 2d-array
+    x_length, y_length = data.shape
+
+    # Initial index of the slice
+    i_slice = 0
+
+    # Iterate through each slice and add bar plots
+    for y in np.arange(0, y_length, y_length//n_slices):
+
+        # x-, y- and z-positions
+        x_pos = np.arange(x_length)*dx
+        y_pos = y*np.ones(x_length)*dy
+        z_pos = np.zeros(x_length)
+
+        # Horizontal dimensions of the bars
+        delta_x = dx*np.ones(x_length)
+        delta_y = 2*dy*np.ones(x_length)
+
+        # Heights in the z-direction
+        delta_z = data[:,y]
+
+        ax.bar3d(x_pos, y_pos, z_pos, delta_x, delta_y, delta_z,
+                 color = colors[i_slice])
+
+        i_slice = i_slice + 1;
+
+    # Add axis labels
+    ax.set_xlabel(x_label)
+    ax.set_ylabel(y_label)
+    ax.set_zlabel(z_label)
+
+    # Adjust the 3d viewing angle of the plot
+    ax.view_init(elev_angle, azim_angle)
+
+    # Set the z-limit of the plot
+    z_max = np.min([z_max, np.max(data)])
+    ax.set_zlim([0, z_max])
+
+    return fig, ax
