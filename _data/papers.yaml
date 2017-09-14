@@ -12,3 +12,9 @@ Day 1:
     volume: "34"
     number: "(1)"
     PDF: "schmidt_heinemann_2016.pdf"
+
+  - title: "Kinesin Walks Hand-Over-Hand"
+    author: "Yildiz et al."
+    journal: "Science"
+    volume: "303"
+    PDF: "yildiz_selvin_2004.pdf"
