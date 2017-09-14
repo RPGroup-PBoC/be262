@@ -3,6 +3,11 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 import seaborn as sns
 
+import glob
+import skimage.io
+import skimage.measure
+import skimage.filters
+
 def bar_plot (data, n_slices, dx = 1, dy = 1, z_max = 1, x_label = 'x',
               y_label='y', z_label='z', elev_angle = 30, azim_angle = 115):
     """
@@ -86,3 +91,81 @@ def bar_plot (data, n_slices, dx = 1, dy = 1, z_max = 1, x_label = 'x',
     ax.set_zlim([0, z_max])
 
     return fig, ax
+
+
+def create_mask (phase_image, gauss_radius = 50, threshold = -0.2, \
+                 pixel_size = 0.16, area_low = 1, area_high = 10):
+
+    # Normalize
+    im_float = (phase_image - np.min(phase_image))/(np.max(phase_image)-np.min(phase_image))
+
+    # Find the background
+    im_bg = skimage.filters.gaussian(im_float, gauss_radius)
+
+    # Subtract the background
+    im_gauss = im_float - im_bg
+
+    # Threshold the image
+    im_thresh = im_gauss < threshold
+
+    # Label the image
+    im_label = skimage.measure.label(im_thresh)
+
+    # Obtain the features of the objects
+    props = skimage.measure.regionprops(im_label)
+
+    # Remove small objects
+    im_mask = np.zeros_like(im_label)
+    for prop in props:
+        area = prop.area * pixel_size**2
+        if (area > area_low) and (area < area_high):
+            im_mask = im_mask + (im_label == prop.label)
+
+    # Label the mask
+    im_mask_label = skimage.measure.label(im_mask)
+
+    # Return the labeled mask
+    return im_mask_label
+
+
+def find_intensities (im_yfp, im_mask_label):
+
+    # List to store the object intensity values
+    intensities = []
+
+    # Obtain the features of objects in the YFP channel
+    props = skimage.measure.regionprops(im_mask_label, intensity_image=im_yfp)
+
+    # Add the YFP intensity values
+    for prop in props:
+        intensities.append(prop.mean_intensity)
+
+    return intensities
+
+
+def find_intensities_all (operator, repressor):
+    # Array to store intensity values from all the strains
+    intensities_all = []
+
+    # Filename structure
+    file_structure_phase = 'data/lacI_titration/' + operator + '_' + repressor + '_' + 'phase*'
+    file_structure_yfp = 'data/lacI_titration/' + operator + '_' + repressor + '_' + 'yfp*'
+
+    # Name of all images for a given strain
+    phase_names = glob.glob(file_structure_phase)
+    yfp_names = glob.glob(file_structure_yfp)
+
+    # Number of positions
+    n_positions = len(phase_names)
+
+    for i in range(n_positions):
+        im_phase = skimage.io.imread(phase_names[i])
+        im_yfp = skimage.io.imread(yfp_names[i])
+
+        im_mask_label = create_mask(im_phase)
+        intensities = find_intensities(im_yfp, im_mask_label)
+
+        for intensity in intensities:
+            intensities_all.append(intensity)
+
+    return intensities_all
