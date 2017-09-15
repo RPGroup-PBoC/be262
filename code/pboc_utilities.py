@@ -94,7 +94,7 @@ def bar_plot (data, n_slices, dx = 1, dy = 1, z_max = 1, x_label = 'x',
 
 
 def create_mask (phase_image, gauss_radius = 50, threshold = -0.2, \
-                 pixel_size = 0.16, area_low = 1, area_high = 10):
+                 pixel_size = 0.16, area_low = 1, area_high = 5):
 
     # Normalize
     im_float = (phase_image - np.min(phase_image))/(np.max(phase_image)-np.min(phase_image))
