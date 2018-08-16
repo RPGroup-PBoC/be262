@@ -3,11 +3,6 @@
   image: rob.jpg
   email: phillips
 
-- name: Justin Bois
-  title: Special Adviser
-  image: bois.jpg
-  email: bois
-
 - name: Suzy Beeler
   title: TA
   image: sbeeler.jpg
@@ -23,11 +18,6 @@
   image: andres.jpg
   email: acollazo
 
-- name: Vahe Galstyan
-  title: TA
-  image: vahe.jpg
-  email: vgalstya
-
 - name: Soichi Hirokawa
   title: TA
   image: soichi.jpg
@@ -38,27 +28,17 @@
   image: heunjin.jpg
   email: heunjin
 
-- name: Muir Morrison
-  title: TA
-  image: muir.jpg
-  email: muir
-
 - name: Manuel Razo-Mejia
   title: TA
   image: manuel.jpg
   email: mrazomej
 
-- name: Franz Weinert
-  title: Microscope Coordinator
-  image: franz.jpg
-  email: weinert
-
-- name: Simón Álamos
+- name: Jonathan Liu
   title: Visiting TA - UC Berkeley
-  image: simon.png
-  email: simon.alamos [at] berkeley [dot] edu
+  image: jliu.jpg
+  email: jhliu42 [at] berkeley [dot] edu
 
-- name: Armando Reimer
+- name: Yang Joon Kim
   title: Visiting TA - UC Berkeley
-  image: armando.jpg
-  email: areimer [at] berkeley [dot] edu
+  image: ykim.jpg
+  email: yjkim90 [at] berkeley [dot] edu
