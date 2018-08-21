@@ -1,19 +1,27 @@
-- name: Lior Pachter
-  link: "http://pachterlab.github.io"
-  image: lior.jpg
+- name: Joe Parker
+  link: "https://www.beetles.caltech.edu/"
+  image: parker.jpg
 
-- name: Matt Thomson
-  link: "http://www.bbe.caltech.edu/content/matt-thomson"
-  image: matt.jpg
+- name: Lea Goentoro
+  link: "https://goentoro.caltech.edu/"
+  image: lea.jpg
 
-- name: Pamela Björkman
-  link: "http://www.its.caltech.edu/~bjorker/labdir.html"
-  image: pamela.jpg
+- name: Michael Elowitz
+  link: "http://www.elowitz.caltech.edu/"
+  image: elowitz.jpg
 
-- name: Markus Meister
-  link: "https://meisterlab.caltech.edu/research"
-  image: markus.jpg
+- name: David Van Valen
+  link: "http://www.vanvalen.caltech.edu/"
+  image: vanvalen.jpg
 
-- name: Michael Dickinson
-  link: "https://dickinsonlab.caltech.edu"
-  image: michael.jpg
+- name: Viviana Gradinaru
+  link: "http://glab.caltech.edu/"
+  image: viv.png
+
+- name: Rob Phillips
+  link: "http://www.rpgroup.caltech.edu/"
+  image: rob.jpg
+
+- name: Frances Arnold
+  link: "http://fhalab.caltech.edu/"
+  image: arnold.jpg
