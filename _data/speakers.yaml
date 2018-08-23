@@ -1,27 +1,34 @@
 - name: Joe Parker
   link: "https://www.beetles.caltech.edu/"
   image: parker.jpg
+  date: Monday, Sept. 10th
 
 - name: Lea Goentoro
   link: "https://goentoro.caltech.edu/"
   image: lea.jpg
+  date: Tuesday, Sept. 11th
 
 - name: Michael Elowitz
   link: "http://www.elowitz.caltech.edu/"
   image: elowitz.jpg
+  date: Wednesday, Sept. 12th
 
 - name: David Van Valen
   link: "http://www.vanvalen.caltech.edu/"
   image: vanvalen.jpg
+  date: Thursday, Sept. 13th
 
 - name: Viviana Gradinaru
   link: "http://glab.caltech.edu/"
   image: viv.png
+  date: Friday, Sept. 14th
 
 - name: Rob Phillips
   link: "http://www.rpgroup.caltech.edu/"
   image: rob.jpg
+  date: Saturday, Sept. 15th
 
 - name: Frances Arnold
   link: "http://fhalab.caltech.edu/"
   image: arnold.jpg
+  date: Monday, Sept. 17th
