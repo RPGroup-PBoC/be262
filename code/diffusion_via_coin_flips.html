@@ -12127,7 +12127,7 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>As expected, the distribution is centered around the origin and has a Gaussian-like shape. The more trajectories we sample, the "more Gaussian" the distribution will become. However, we may notice that the distribution appears to change depending on the number of bins we choose. This is known as <em>bin bias</em> and doesn't reflect anything about our data itself, just how we choose to represent it. An alternative (and arguably better) way to present the data is as a <em>cumulative frequency distribution</em> (or CDF), where we don't specify a number of bins, but instead plot each data point. For our cumulative frequency distribution, the $x$-axis corresponds to the final position of a particle  and the $y$-axis corresponds to the proportion of particles that ended at this position or a more negative position.</p>
+<p>As expected, the distribution is centered around the origin and has a Gaussian-like shape. The more trajectories we sample, the "more Gaussian" the distribution will become. However, we may notice that the distribution appears to change depending on the number of bins we choose. This is known as <em>bin bias</em> and doesn't reflect anything about our data itself, just how we choose to represent it. An alternative (and arguably better) way to present the data is as a <em>empirical cumulative distribution function</em> (or ECDF), where we don't specify a number of bins, but instead plot each data point. For our cumulative frequency distribution, the $x$-axis corresponds to the final position of a particle  and the $y$-axis corresponds to the proportion of particles that ended at this position or a more negative position.</p>
 
 </div>
 </div>
@@ -12179,7 +12179,7 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>This way of visualizing the data makes it easier to tell that distribution of walkers is in fact symmetric around 0. That is, 50% of the walkers ended on a negative position, while $50%$ of the walkers ended on a positive position.</p>
+<p>This way of visualizing the data makes it easier to tell that distribution of walkers is in fact symmetric around 0. That is, 50% of the walkers ended on a negative position, while 50% of the walkers ended on a positive position.</p>
 
 </div>
 </div>
