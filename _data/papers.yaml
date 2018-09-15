@@ -1,43 +1,56 @@
-Day 1 (Monday, Sept. 10th):
+Day 1:
   - title: "The biomass distribution on Earth"
     author: "Bar-On et al."
     journal: "PNAS"
-    volume: "115"
-    number: "(25)"
+    year: "2018"
     PDF: "bar-on2018.pdf"
 
   - title: "Theory in Biology: Figure 1 or Figure 7?"
     author: "Rob Phillips"
     journal: "CellPress"
-    volume: "25"
-    number: "(12)"
+    year: "2015"
     PDF: "phillips2015.pdf"
 
   - title: "Models in biology: ‘accurate descriptions of our pathetic thinking’"
     author: "Jeremy Gunawardena"
     journal: "BMC Biology"
-    volume: "12"
-    number: "(29)"
+    year: " 2014"
     PDF: "gunawardena2014.pdf"
 
-Day 2 (Tuesday, Sept. 11th):
+Day 2:
   - title: "The bioenergetic costs of a gene"
     author: "Michael Lynch and Georgi Marinov"
     journal: "PNAS"
-    volume: "112"
-    number: "(51)"
+    year: "2015"
     PDF: "lynch_marinov2015.pdf"
 
   - title: "Sequences and consequences"
     author: "Sydney Brenner"
     journal: "Philos Trans R Soc Lond B Biol Sci."
-    volume: "365"
-    number: "(1537)"
+    year: "2010"
     PDF: "brenner2010.pdf"
 
   - title: "Molecular 'vitalism'"
     author: "Kirschner et al."
     journal: "Cell"
-    volume: "100"
-    number: "(1)"
+    year: "2000"
     PDF: "kirschner2000.pdf"
+
+Days 3-5:
+  - title: "Point of View: Are theoretical results ‘Results’?"
+    author: "Raymond Goldstein"
+    journal: "eLife"
+    year: "2015"
+    PDF: "lynch_marinov2015.pdf"
+
+  - title: "Physical limits to magnetogenetics"
+    author: "Markus Meister"
+    journal: "eLife"
+    year: "2016"
+    PDF: "Meister.pdf"
+
+  - title: "Problems on the back of an envelope"
+    author: "Anikeeva and Jasanoff"
+    journal: "eLife"
+    year: "2016"
+    PDF: "anikeeva_jasanoff2016.pdf"
