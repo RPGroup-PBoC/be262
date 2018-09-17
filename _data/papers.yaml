@@ -1,4 +1,4 @@
-Day 1:
+Day 1 (September 10th):
   - title: "The biomass distribution on Earth"
     author: "Bar-On et al."
     journal: "PNAS"
@@ -17,7 +17,7 @@ Day 1:
     year: " 2014"
     PDF: "gunawardena2014.pdf"
 
-Day 2:
+Day 2 (September 11th):
   - title: "The bioenergetic costs of a gene"
     author: "Michael Lynch and Georgi Marinov"
     journal: "PNAS"
@@ -36,7 +36,7 @@ Day 2:
     year: "2000"
     PDF: "kirschner2000.pdf"
 
-Days 6:
+Day 6 (September 15th):
   - title: "Point of View: Are theoretical results ‘Results’?"
     author: "Raymond Goldstein"
     journal: "eLife"
@@ -55,8 +55,9 @@ Days 6:
     year: "2016"
     PDF: "anikeeva_jasanoff_2016.pdf"
 
-Days 8:
+Days 8 (September 17th):
   - title: "A Mathematician's Lament"
     author: "Paul Lockhart"
+    journal: "Bellevue Literary Press"
     year: "2009"
     PDF: "lockhart2009.pdf"
