@@ -54,3 +54,9 @@ Days 6:
     journal: "eLife"
     year: "2016"
     PDF: "anikeeva_jasanoff_2016.pdf"
+
+Days 8:
+  - title: "A Mathematician's Lament"
+    author: "Paul Lockhart"
+    year: "2009"
+    PDF: "lockhart2009.pdf"
