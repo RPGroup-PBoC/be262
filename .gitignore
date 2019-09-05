@@ -1,5 +1,6 @@
 *.pdf
 *.DS_store
+*.DS_Store
 *.tif*
 *.NEF
 .ipynb_checkpoints
