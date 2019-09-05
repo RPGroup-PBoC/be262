@@ -3,47 +3,27 @@
   image: rob.jpg
   email: phillips
 
+- name: Manuel Razo-Mejia
+  title: TA
+  image: manuel.jpg
+  email: mrazomej
+
 - name: Rachel Banks
   title: TA
   image: rbanks.jpg
   email: rbanks
-
-- name: Suzy Beeler
-  title: TA
-  image: sbeeler.jpg
-  email: sbeeler
 
 - name: Griffin Chure
   title: TA
   image: gchure.jpg
   email: gchure
 
-- name: Andres Collazo
-  title: Biological Imaging Facility Director
-  image: andres.jpg
-  email: acollazo
-
-- name: Soichi Hirokawa
-  title: TA
-  image: soichi.jpg
-  email: shirokaw
-
 - name: Heun Jin Lee
   title: TA
   image: heunjin.jpg
   email: heunjin
 
-- name: Manuel Razo-Mejia
+- name: Niko McCarty
   title: TA
-  image: manuel.jpg
+  image: niko.jpg
   email: mrazomej
-
-- name: Jonathan Liu
-  title: Visiting TA - UC Berkeley
-  image: jliu.jpg
-  email: jhliu42 [at] berkeley [dot] edu
-
-- name: Yang Joon Kim
-  title: Visiting TA - UC Berkeley
-  image: ykim.jpg
-  email: yjkim90 [at] berkeley [dot] edu
