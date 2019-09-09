@@ -18,11 +18,11 @@ Day 1 (September 9th):
     year: "2015"
     PDF: "phillips2015.pdf"
 
-#   - title: "Models in biology: ‘accurate descriptions of our pathetic thinking’"
-#     author: "Jeremy Gunawardena"
-#     journal: "BMC Biology"
-#     year: " 2014"
-#     PDF: "gunawardena2014.pdf"
+  - title: "Models in biology: ‘accurate descriptions of our pathetic thinking’"
+    author: "Jeremy Gunawardena"
+    journal: "BMC Biology"
+    year: " 2014"
+    PDF: "gunawardena2014.pdf"
 
 # Day 2 (September 10th):
 #   - title: "The bioenergetic costs of a gene"
