@@ -5,6 +5,13 @@ Day 1 (September 9th):
     year: "2018"
     PDF: "bar-on2018.pdf"
 
+  - title: "The tragic matter"
+    author: "Gottfried Schatz"
+    journal: "FEBS Letters"
+    year: "2003"
+    link: "https://febs.onlinelibrary.wiley.com/doi/full/10.1016/S0014-5793%2803%2900046-2?sid=nlm%3Apubmed"
+
+
 #   - title: "Theory in Biology: Figure 1 or Figure 7?"
 #     author: "Rob Phillips"
 #     journal: "CellPress"
