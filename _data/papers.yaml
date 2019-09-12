@@ -3,7 +3,7 @@ Day 1 (September 9th):
     author: "Bar-On et al."
     journal: "PNAS"
     year: "2018"
-    PDF: "bar-on2018.pdf"
+    link: "https://www.pnas.org/content/115/25/6506"
 
   - title: "The tragic matter"
     author: "Gottfried Schatz"
@@ -16,13 +16,13 @@ Day 1 (September 9th):
     author: "Rob Phillips"
     journal: "CellPress"
     year: "2015"
-    PDF: "phillips2015.pdf"
+    link: "https://www.cell.com/trends/cell-biology/fulltext/S0962-8924(15)00194-4"
 
   - title: "Models in biology: ‘accurate descriptions of our pathetic thinking’"
     author: "Jeremy Gunawardena"
     journal: "BMC Biology"
     year: " 2014"
-    PDF: "gunawardena2014.pdf"
+    link: "https://bmcbiol.biomedcentral.com/articles/10.1186/1741-7007-12-29"
 
   - title: "Bacterial Growth: Constant Obsession with dN/dt"
     author: "Frederick C. Neidhardt"
