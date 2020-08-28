@@ -8,6 +8,16 @@
   image: magda.jpg
   date: Tuesday, Sept. 8
 
+- name: Mikhail Shapiro
+  link: "http://shapirolab.caltech.edu"
+  image: shapiro.jpg
+  date: Thursday, Sept. 10
+
+- name: Michael Dickinson
+  link: "https://dickinsonlab.caltech.edu"
+  image: michael.jpg
+  date: Friday, Sept. 11
+
 - name: Justin Bois
   link: "http://bois.caltech.edu"
   image: jb.jpg
