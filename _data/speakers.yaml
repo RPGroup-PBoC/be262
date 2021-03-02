@@ -1,29 +1,29 @@
-# - name: Erik Winfree
-#   link: "http://www.dna.caltech.edu/~winfree/"
-#   image: winfree.jpg
-#   date: Monday, Sept. 9th
+- name: Frances Arnold
+  link: "http://fhalab.caltech.edu"
+  zoom: "https://caltech.zoom.us/j/93445590103"
+  image: arnold.jpg
+  date: Monday, Sept. 7
 
-# - name: Long Cai
-#   link: "http://singlecell.caltech.edu"
-#   image: cai.jpg
-#   date: Tuesday, Sept. 10th
+- name: Magdalena Zernicka-Goetz
+  link: "http://zernickagoetzlab.pdn.cam.ac.uk"
+  zoom: "https://caltech.zoom.us/j/4997846250"
+  image: magda.jpg
+  date: Tuesday, Sept. 8
 
-# - name: Magdalena Zernicka-Goetz
-#   link: "http://zernickagoetzlab.pdn.cam.ac.uk"
-#   image: magda.jpg
-#   date: Wednesday, Sept. 11th
+- name: Mikhail Shapiro
+  link: "http://shapirolab.caltech.edu"
+  zoom: "https://caltech.zoom.us/j/4997846250"
+  image: shapiro.jpg
+  date: Thursday, Sept. 10
 
-# - name: Dianne Newman
-#   link: "http://dknweb.caltech.edu/Newman_Lab.html"
-#   image: dianne.jpg
-#   date: Thursday, Sept. 12th
+- name: Michael Dickinson
+  link: "https://dickinsonlab.caltech.edu"
+  zoom: "https://caltech.zoom.us/j/4997846250"
+  image: michael.jpg
+  date: Friday, Sept. 11
 
-# - name: Mikhail Shapiro
-#   link: "http://shapirolab.caltech.edu"
-#   image: shapiro.jpg
-#   date: Friday, Sept. 13th
-
-# - name: Kaihan Wang
-#   link: "http://kaihangwanglab.caltech.edu/dr-kaihang-wang"
-#   image: kaihang.jpg
-#   date: Monday, Sept. 16th
+- name: Justin Bois
+  link: "http://bois.caltech.edu"
+  zoom: "https://caltech.zoom.us/j/4997846250"
+  image: jb.jpg
+  date: Monday, Sept. 14
