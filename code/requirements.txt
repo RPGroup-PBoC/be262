@@ -1,0 +1,9 @@
+# Requirements for Be262
+
+numpy
+pandas
+matplotlib
+seaborn
+panel
+bokeh
+scikit-image
