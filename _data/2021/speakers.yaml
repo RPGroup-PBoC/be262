@@ -4,13 +4,27 @@
   image: matt.jpg
   date: Wednesday, Sept. 8
 
-
 - name: Ellen Rothenberg
   link: "http://www.its.caltech.edu/~tcellgrn/index.html"
-  image: ellen.jpg
+  image: ellen_square.jpg
   date: Thursday, Sept. 9
 
 - name: Pamela Bjorkman
   link: "https://www.its.caltech.edu/~bjorker/"
   image: pamela.jpg
   date: Friday, Sept. 10
+
+- name: Dave Van Valen
+  link: "https://www.vanvalen.caltech.edu/"
+  image: vanvalen.jpg
+  date: Saturday, Sept. 11
+
+- name: Mikhail Shapiro
+  link: "https://shapirolab.caltech.edu/"
+  image: shapiro_square.jpg
+  date: Monday, Sept. 13
+
+- name: Magda Zernicke-Goetz
+  link: "https://zernickagoetzlab.caltech.edu/"
+  image: magda.jpg
+  date: Tuesday, Sept. 14
