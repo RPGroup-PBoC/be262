@@ -1,0 +1,11 @@
+- name: Rob Phillips
+  title: Instructor
+  image: rob.jpg
+  email: phillips
+
+- name: Tom Röschinger
+  title: TA
+  image: tom.jpg
+  email: troeschi
+
+
