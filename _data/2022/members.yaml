@@ -8,4 +8,20 @@
   image: tom.jpg
   email: troeschi
 
+- name: Heun Jin Lee
+  title: TA
+  image: heunjin.jpg
+  email: heunjin
+
+- name: Soichi Hirokawa
+  title: TA
+  image: soichi.jpg
+  email: shirokaw
+
+- name: Ana Duarte
+  title: TA
+  image: aduarte.jpg
+  email: aduarte
+
+
 
