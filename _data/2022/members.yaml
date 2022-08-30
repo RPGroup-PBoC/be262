@@ -3,10 +3,10 @@
   image: rob.jpg
   email: phillips
 
-- name: Tom Röschinger
+- name: Gabe Salmon
   title: TA
-  image: tom.jpg
-  email: troeschi
+  image: gsalmon.jpg
+  email: gsalmon
 
 - name: Heun Jin Lee
   title: TA
@@ -23,10 +23,6 @@
   image: aduarte.jpg
   email: aduarte
 
-- name: Grace Solini
-  title: TA
-  image: gsolini.jpg
-  email: gsolini
 
 
 
