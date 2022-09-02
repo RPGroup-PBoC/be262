@@ -1,0 +1,1 @@
+scp -r $1 rpdata@ssh.caltech.edu:public_html/courses/course_data/

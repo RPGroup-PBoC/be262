@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>BE 262 - Programming</title>
+      <meta name="viewport" content="width=device-width">
+      <!-- syntax highlighting CSS -->
+      <link rel="stylesheet" href="//css/syntax.css">
+
+      <!-- Custom CSS -->
+      <link rel="stylesheet" href="//css/main.css">
+
+      <!-- Responsive CSS -->
+      <link rel="stylesheet" href="//css/responsive.css">
+
+      <!-- Google Fonts -->
+      <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Raleway:300,400,700' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <div class="site">
+      <div class="sidebar" id="sidebar">
+        <div class="header">
+          <h1 class="title"><img id="logo" src="//images/be262.png">
+          <span class="tagline"></span>
+        </div>
+        <div class="posts">
+          <ul class="posts-list">
+            
+              
+                
+                  <li class="post-link">
+                    <a class="post-title" href="//2020/about">
+                      About
+                    </a>
+                  </li>
+                
+                  <li class="post-link">
+                    <a class="post-title" href="//2020/people">
+                      People
+                    </a>
+                  </li>
+                
+                  <li class="post-link">
+                    <a class="post-title" href="//2020/programming">
+                      Programming
+                    </a>
+                  </li>
+                
+                  <li class="post-link">
+                    <a class="post-title" href="//2020/readings">
+                      Readings
+                    </a>
+                  </li>
+                
+              
+            
+              
+            
+              
+            
+          </ul>
+        </div>
+        <div class="footer">
+          <span id="footer-links">
+            <a href="http://www.rpgroup.caltech.edu" class="footer-link">Phillips Lab</a> <span class="separator">&bull;</span>
+            <a href="http://www.github.com/rpgroup-pboc/be262" class="footer-link">GitHub Repo</a>
+            <br /><br />
+            <a href="http://www.caltech.edu"><img src="//images/Caltech_LOGO-BLACK-RGB.png" style="max-height: 40px; max-width: 50%; align: center;"></a>
+          </span>
+        </div>
+      </div>
+
+        <div class="content" id="home">
+  <div id="sidebar-button">
+    <img src="//images/sidebar-button.png">
+  </div>
+  <div id="post-info">
+    <div id="cover-photo-container">
+    </div>
+      <img id="cover-photo" width="1100px" height="200px;" src="//images/code.jpg" style=" object-fit: cover; padding-bottom: 8em; padding-top: 10px; padding-left: 0em; margin-left: -1em; margin-right:-1em;">
+      <h1 id="title" style="font-weight:500; font-family: Raleway; position: relative; margin-top: -175px; padding-bottom: 10px; margin-left: 0em; color: #FFFFFF;  text-shadow: 0 0 15px #000000; font-size: 3em; border-bottom: 1px solid #FFFFFF; width: 30%;">Programming </h1>
+
+    <div id="info-container">
+    </div>
+  </div>
+
+  <div class="post">
+    <h2 id="tutorials">Tutorials</h2>
+<p>We will have several computational tutorials throughout the course. As the
+course progresses, these materials will be posted below. <strong>Note:</strong> <em>In some
+browsers (Firefox primarily), the end of each sentence is clipped off, making
+it difficult to read. If this is occurring, please try using another browser
+(Chrome, Safari, etc).</em></p>
+
+<ul>
+  <li>
+    <p><a href="//code/t0a_setting_up_python.html">Tutorial 0a: Configuring your computer</a> | This tutorial will walk
+you through how to install a Python 3.7 scientific computing environment.</p>
+  </li>
+  <li>
+    <p><a href="//code/t0b_jupyter_notebooks.html">Tutorial 0b: Using the Jupyter notebook</a> | This tutorial will teach
+you how to write code and text in Jupyter notebooks for homework submissions.</p>
+  </li>
+  <li>
+    <p><a href="//code/t0c_python_syntax_and_plotting.html">Tutorial 0c: A Primer on Python Syntax</a> | This tutorial
+will walk you through the basics of programming in Python.</p>
+  </li>
+</ul>
+
+<h2 id="data-sets">Data sets</h2>
+<!-- Please download the following data sets, unzip them, and place them in your
+`bootcamp/data` folder as described in [the setting up Python tutorial](//code/t0a_setting_up_python.html). -->
+
+<ul>
+  <li><a href="http://rpdata.caltech.edu/courses/course_data/ecoli_growth.zip">Data set 1</a>
+| Set of phase contrast and fluorescence images of a growing <em>E. coli.</em>
+colony.</li>
+</ul>
+
+<!-- * [Data set
+  2](http://rpdata.caltech.edu/courses/course_data/lacI_titration.zip) \| A
+  large image set of *E. coli* strains with varying copy numbers of the lacI
+  repressor molecule. -->
+
+<!-- * [Data set 3](http://rpdata.caltech.edu/courses/course_data/MS2_nuclei.zip) \|
+  An image set of 5' and 3' labeled mRNA expressing in a developing
+  *Drosophila* embryo. -->
+
+<!-- ## Python utilities
+As sometimes syntax can be difficult, we have written a file with a few
+functions written in Python that will make some of the in-class exercises less
+cumbersome. Please download them below and place them in your root `bootcamp`
+folder.
+
+* [pboc_utilities.py](//code/pboc_utilities.py) \| Course utilities. -->
+
+<h2 id="exercises">Exercises</h2>
+<p>As we progress through the course, the code written in class will be posted
+here, along with the polished version of the same material.</p>
+
+<ul>
+  <li>
+    <p><a href="//code/forward_euler.html">Exercise 1</a> | numerically
+ integrating the differential equation for exponential growth.</p>
+  </li>
+  <li>
+    <p><a href="//code/bacterial_growth.html">exercise 2</a> | determining
+bacterial growth rate from microscopy data. [<a href="http://rpdata.caltech.edu/courses/course_data/ecoli_growth.zip">data
+set</a>] 
+<!-- \[[in class](//code/bacterial_growth_in_class.ipynb)\] --></p>
+  </li>
+  <li>
+    <p><a href="//code/diffusion_via_coin_flips.html">exercise 3</a> |
+simulating diffusing particles with coin flips.</p>
+  </li>
+  <li>
+    <p><a href="//code/diffusion_via_coin_flips_continued.html">exercise 4</a>
+| continuation of our stochastic treatment of diffusion. –&gt;
+&lt;!– [<a href="//code/diffusion_via_coin_flips_continued_in_class.html">in class</a>]</p>
+  </li>
+</ul>
+
+<!-- * [exercise 5](//code/diffusion_1d_and_frap.html) \|
+  numerically solving the master equation for diffusion.  -->
+<p><!-- \[[in class](//code/diffusion_1d_and_frap_in_class.html)\] --></p>
+
+<!-- * [exercise 9](//code/laci_titration_day3.html) \| completed
+  gene expression project, analyzing the effect of laci titration and comparing
+  it to the theory.  \[[data
+  set](http://rpdata.caltech.edu/courses/course_data/laci_titration.zip)\]
+  \[[in class](//code/lacI_titration_day3_in_class.html)\] -->
+
+<!-- * [Exercise 6](//code/gene_expression_master_equation.html) \|
+  Solving the master equation for constitutive gene expression.  -->
+<p><!-- \[[In class](//code/gene_expression_master_equation_in_class.html)\] --></p>
+
+<!-- * [Exercise 7](//code/taylor_series.html) \| Plotting Taylor
+  series approximations for increasing number of terms. -->
+<p><!-- \[[In class](//code/taylor_series_in_class.html)\] --></p>
+
+<!-- * [Exercise 8] \| Simulating the Buri experiment as an illustration of genetic
+  drift.  -->
+<p><!-- \[[In class](//code/genetic_drift_in_class.html)\] --></p>
+
+<!-- * [Exercise 9](//code/lacI_titration_day3.html) \| Completed
+  gene expression project, analyzing the effect of LacI titration and comparing
+  it to the theory.  \[[Data
+  set](http://rpdata.caltech.edu/courses/course_data/lacI_titration.zip)\] -->
+<p><!-- \[[In class](//code/lacI_titration_day3_in_class.html)\] --></p>
+
+<!-- * [Exercise 10](//code/central_limit_theorem.html) \|
+  Illustrating The Central Limit Theorem computationally.  -->
+<p><!-- \[[In class](//code/central_limit_theorem_in_class.html)\] --></p>
+
+<!-- * [Exercise 11](//code/inferring_p_heads.html) \| Using
+  Bayesian inference to predict the probability of getting heads on an unfair
+  coin. -->
+
+<!-- * [Exercise 12] \| Plotting the probability of the states in the MWC model for
+  increasing ligand concentration.  -->
+<p><!-- \[[In class](//code/plotting_allosteric_states_in_class.html)\] --></p>
+
+<!-- * [Exercise 13](//code/fly_elongation_rate.html) \| Analysis of
+  the MS2 constructs to find rate of transcription in fruit flies.  -->
+<p><!-- \[[In class](//code/fly_elongation_rate_in_class.html)\] --></p>
+
+<h2 id="external-resources">External resources</h2>
+<p>Below is a list of useful online resources for learning the Python programming
+language and principles of programming in general.</p>
+
+<ul>
+  <li>
+    <p><a href="http://justinbois.github.io/bootcamp/2020/">BE/Bi/NB 203 : Programming in the Biological
+Sciences</a></p>
+  </li>
+  <li>
+    <p><a href="http://www.bebi103.caltech.edu">Be/Bi 103 : Data Analysis in the Biological
+Sciences</a></p>
+  </li>
+  <li>
+    <p><a href="https://www.codecademy.com/learn/python">Codecademy course on Python</a></p>
+  </li>
+  <li>
+    <p><a href="https://www.datacamp.com/courses/intro-to-python-for-data-science">DataCamp course on Python for data
+science</a></p>
+  </li>
+</ul>
+
+  </div>
+  <div class="colophon">
+    <p>
+    </p>
+  </div>
+</div>
+
+
+
+    </div>
+    <script src="//scripts/responsive.js" type="text/javascript"></script>
+  </body>
+</html>
