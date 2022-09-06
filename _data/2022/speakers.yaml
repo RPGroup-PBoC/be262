@@ -3,6 +3,21 @@
   image: matt.jpg
   date: Tuesday, Sept. 6
 
+- name: Doug Rees
+  link: "https://reeslab.caltech.edu/"
+  image: drees.jpg
+  date: Wednesday, Sept. 7
+
+- name: Magda Zernicka-Goetz
+  link: "https://zernickagoetzlab.com/"
+  image: magda.jpg
+  date: Thursday, Sept. 8
+
+- name: Pamela Bjorkman
+  link: "https://www.its.caltech.edu/~bjorker/"
+  image: pamela.jpg
+  date: Friday, Sept. 9
+
 - name: Erik Winfree
   link: "https://www.dna.caltech.edu/~winfree/"
   image: winfree.jpg
