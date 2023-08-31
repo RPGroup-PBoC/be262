@@ -1,3 +1,8 @@
+- name: Gozde Demirer
+  link: "https://www.demirerlab.com/"
+  image: gozde.jpg
+  date: Weds, Sept. 6th
+
 - name: Joe Parker
   link: "https://www.beetles.caltech.edu/"
   image: parker.jpg
@@ -6,9 +11,9 @@
 - name: Dianne Newman (& John Ciemniecki)
   link: "https://dknweb.caltech.edu/"
   image: dianne.jpg
-  date: 
+  date: Fri, Sept. 8th
 
 - name: Lior Pachter
   link: "https://zernickagoetzlab.com/"
   image: lior.jpg
-  date: 
+  date: Mon, Sept. 11th
