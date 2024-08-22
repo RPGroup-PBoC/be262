@@ -1,0 +1,44 @@
+- name: Rob Phillips
+  title: Instructor
+  image: rob.jpg
+  email: phillips
+
+- name: Sara Mahdavi
+  title: TA
+  image: undefinedMatrix.jpg
+  email: smahdavi
+
+- name: Heun Jin Lee
+  title: TA (experiments)
+  image: heunjin.jpg
+  email: heunjin
+
+- name: Ana Duarte
+  title: TA (experiments)
+  image: aduarte.jpg
+  email: aduarte
+
+- name: Rosalind Pan
+  title: TA (experiments)
+  image: rpan.jpg
+  email: rosalindpan
+
+- name: Minakshi Ashok
+  title: TA (experiments)
+  image: undefinedMatrix.jpg
+  email: mashok2
+
+- name: Kian Faizi
+  title: TA
+  image: kfaizi.jpg
+  email: kian
+
+- name: Rebecca Rousseau
+  title: TA
+  image: rebecca2.jpg
+  email: rroussea
+
+- name: Shichen Liu
+  title: TA (experiments)
+  image: shichen.jpg
+  email: sliu7
