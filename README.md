@@ -12,3 +12,6 @@ Say we're in year 20XX. To make a new year's offering course webpage for the new
 5. Edit these `_data/20XX+1` files accordingly to reflect the new schedule of speakers, the new TA's, any mugshots, etc. Add any new people/speaker mugshots to `be262/images/people/` so you can call them in files found in `_data/20XX+1`; remember that it is strongly recommended that all images are square in aspect ratio to prevent formatting weirdness.
 6. Update anything else with new materials! Remember to commit etc.
 
+### Notes about website logic
+- To update information, most of the time you'll modify the entries in this year's appropriate `_posts`, or the data files automatically consulted in `_data/20XX+1`. Git committing should result in a Github page build that is indicated by a little yellow dot (denoting `pending` compilation) that turns to a green checkmark next to your commit status in the main repo page, indicating that the changes have propagated to the live webpage.
+- `Jekyll` automatically compiles the contents of `_site`, so do not directly edit the `.html` files found in this folder (except for perhaps copying into older year directories), because these changes won't reflect in compiling the github page upon every commit. Instead, update the relevant files in `_posts` or in the top level `be262` directory.
