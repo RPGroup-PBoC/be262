@@ -11,9 +11,19 @@
 - name: Julia Tejada
   link: "https://juliatejada.caltech.edu/"
   image: tejada.jpg
-  date: Thurs, Sept. 5th
+  date: Thurs, Sept. 5th, 1pm
+  
+- name: Smruthi Karthikeyan
+  link: "https://www.bbe.caltech.edu/people/smruthi-karthikeyan"
+  image: tejada.jpg
+  date: Fri, Sept. 6th, 1pm
 
 - name: Zhen Chen
   link: "https://zhenchenlab.caltech.edu/"
   image: chen.jpg
-  date: 
+  date: Sat, Sept. 7th, 1pm
+
+- name: Lior Pachter
+  link: "https://www.bbe.caltech.edu/people/lior-s-pachter"
+  image: chen.jpg
+  date: Mon, Sept. 9th, 1pm
