@@ -1,0 +1,16 @@
+---
+layout: default
+title: Home
+year: 2024
+---
+{% for tag in site.tags %}
+  {% if tag[0] == page.year %}
+    {% assign t = tag | first %}
+    {% assign posts = tag | last %}
+    {% assign page = posts.first %}
+    {% assign content = page.content %}
+    {% include post.html %} -->
+    {% break %}
+    {% endif %}
+{% endfor %}
+
