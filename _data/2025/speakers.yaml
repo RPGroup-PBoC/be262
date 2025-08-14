@@ -1,0 +1,34 @@
+- name: Dianne Newman 
+  link: "https://dknweb.caltech.edu/"
+  image: dianne.jpg
+  date: Tues, Sept. 3rd, 1pm
+
+- name: Betsy Mitchell 
+  link: "https://gocaltech.com/staff-directory/betsy-mitchell/141"
+  image: betsy.png
+  date: Tues, Sept. 3rd, 4pm
+
+- name: Sujit Datta
+  link: "https://cce.caltech.edu/people/sujit-datta"
+  image: sujit.jpg
+  date: Wed, Sept. 4th, **4pm** (note later time)
+
+- name: Julia Tejada
+  link: "https://juliatejada.caltech.edu/"
+  image: tejada.jpg
+  date: Thurs, Sept. 5th, 1pm
+  
+- name: Smruthi Karthikeyan
+  link: "https://www.bbe.caltech.edu/people/smruthi-karthikeyan"
+  image: smruthi.avif
+  date: Fri, Sept. 6th, 1pm
+
+- name: Zhen Chen
+  link: "https://zhenchenlab.caltech.edu/"
+  image: chen.jpg
+  date: Sat, Sept. 7th, 1pm
+
+- name: Lior Pachter
+  link: "https://www.bbe.caltech.edu/people/lior-s-pachter"
+  image: lior.avif
+  date: Mon, Sept. 9th, 1pm

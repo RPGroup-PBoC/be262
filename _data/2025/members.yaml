@@ -1,0 +1,44 @@
+- name: Rob Phillips
+  title: Instructor
+  image: rob.jpg
+  email: phillips
+
+- name: Sara Mahdavi
+  title: TA
+  image: sara.jpg
+  email: smahdavi [at] caltech [dot] edu
+
+- name: Heun Jin Lee
+  title: TA (experiments)
+  image: heunjin.jpg
+  email: heunjin [at] caltech [dot] edu
+
+- name: Ana Duarte
+  title: TA (experiments)
+  image: aduarte.jpg
+  email: aduarte [at] caltech [dot] edu
+
+- name: Rosalind Pan
+  title: TA (experiments)
+  image: rpan.jpg
+  email: rosalind [at] caltech [dot] edu
+
+- name: Minakshi Ashok
+  title: TA (experiments)
+  image: minakshi.jpg
+  email: mashok2 [at] caltech [dot] edu
+
+- name: Shichen Liu
+  title: TA (experiments)
+  image: shichen.jpg
+  email: sliu7
+
+- name: Vinu Harihar 
+  title: TA (experiments)
+  image: VinuHarihar.jpg
+  email: vinayak [dot] harihar [at] berkeley [dot] edu
+
+- name: Bruno Moretti
+  title: TA (experiments)
+  image: bruno.jpg
+  email: bmoretti [at] berkeley [dot] edu
