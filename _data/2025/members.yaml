@@ -3,6 +3,11 @@
   image: rob.jpg
   email: phillips
 
+- name: Jané Kondev
+  title: Instructor
+  image: jane.jpg
+  email: kondev [at] brandeis [dot] edu
+
 - name: Sara Mahdavi
   title: TA
   image: sara.jpg
