@@ -1,34 +1,25 @@
-- name: Dianne Newman 
-  link: "https://dknweb.caltech.edu/"
-  image: dianne.jpg
-  date: Tues, Sept. 3rd, 1pm
+- name: Matt Thomson
+  link: "https://thomsonlab.caltech.edu/"
+  image: matt.jpg
+  date: Tues, Sept. 2nd, 1pm
 
-- name: Betsy Mitchell 
-  link: "https://gocaltech.com/staff-directory/betsy-mitchell/141"
-  image: betsy.png
-  date: Tues, Sept. 3rd, 4pm
+- name: Mikhail Shapiro
+  link: "https://shapirolab.caltech.edu/"
+  image: shapiro_square.png
+  date: Wed, Sept. 3rd, 1pm
 
-- name: Sujit Datta
-  link: "https://cce.caltech.edu/people/sujit-datta"
-  image: sujit.jpg
-  date: Wed, Sept. 4th, **4pm** (note later time)
+- name: Victoria Orphan
+  link: "https://orphanlab.caltech.edu/"
+  image: victoria_orphan.jpg
+  date: Thurs, Sept. 4th, 1pm
 
-- name: Julia Tejada
-  link: "https://juliatejada.caltech.edu/"
-  image: tejada.jpg
-  date: Thurs, Sept. 5th, 1pm
+- name: Ellen Rothenberg
+  link: "https://rothenberglab.caltech.edu/"
+  image: ellen_square.jpg
+  date: Fri, Sept. 5th, 1pm
   
-- name: Smruthi Karthikeyan
-  link: "https://www.bbe.caltech.edu/people/smruthi-karthikeyan"
-  image: smruthi.avif
-  date: Fri, Sept. 6th, 1pm
+- name: Trevor Nolan
+  link: "https://www.trevornolan.science/about"
+  image: trevor_nolan.jpg
+  date: Mon, Sept. 8th, 1pm
 
-- name: Zhen Chen
-  link: "https://zhenchenlab.caltech.edu/"
-  image: chen.jpg
-  date: Sat, Sept. 7th, 1pm
-
-- name: Lior Pachter
-  link: "https://www.bbe.caltech.edu/people/lior-s-pachter"
-  image: lior.avif
-  date: Mon, Sept. 9th, 1pm
