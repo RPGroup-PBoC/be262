@@ -1,0 +1,132 @@
+# Reading assignments:
+# - title: "Physical Biology of the Cell, 3rd edition. Chapter 2"
+#   author: "Phillips, et al."
+#   link: "rpdata.caltech.edu/courses/course_papers/protected/PBoC3_Chapter_2.pdf"
+
+# Day 1 (September 9th):
+#   - title: "The biomass distribution on Earth"
+#     author: "Bar-On et al."
+#     journal: "PNAS"
+#     year: "2018"
+#     link: "https://www.pnas.org/content/115/25/6506"
+
+#   - title: "The tragic matter"
+#     author: "Gottfried Schatz"
+#     journal: "FEBS Letters"
+#     year: "2003"
+#     link: "https://febs.onlinelibrary.wiley.com/doi/full/10.1016/S0014-5793%2803%2900046-2?sid=nlm%3Apubmed"
+
+#   - title: "Theory in Biology: Figure 1 or Figure 7?"
+#     author: "Rob Phillips"
+#     journal: "CellPress"
+#     year: "2015"
+#     link: "https://www.cell.com/trends/cell-biology/fulltext/S0962-8924(15)00194-4"
+
+#   - title: "Models in biology: ‘accurate descriptions of our pathetic thinking’"
+#     author: "Jeremy Gunawardena"
+#     journal: "BMC Biology"
+#     year: " 2014"
+#     link: "https://bmcbiol.biomedcentral.com/articles/10.1186/1741-7007-12-29"
+
+#   - title: "Bacterial Growth: Constant Obsession with dN/dt"
+#     author: "Frederick C. Neidhardt"
+#     journal: "Journal of Bacteriology"
+#     year: "1999"
+#     link: "https://jb.asm.org/content/181/24/7405.long"
+
+# Day 2 (September 10th):
+#   - title: "An application of the Poisson distribution"
+#     author: "R. D. Clarke"
+#     journal: "Journal of the Institute of Actuaries"
+#     year: "1946"
+#     link: "https://www.cambridge.org/core/journals/journal-of-the-institute-of-actuaries/article/an-application-of-the-poisson-distribution/F75111847FDA534103BD4941BD96A78E"
+    
+# Day 3 (September 11th):
+#   - title: "Kinesin Walks Hand-Over-Hand"
+#     author: "Ahmet Yildiz"
+#     journal: "Science"
+#     year: "2004"
+#     link: "https://science.sciencemag.org/content/303/5658/676"
+
+#   - title: "Physical principles underlying the transduction of bilayer deformation forces during mechanosensitive channel gating"
+#     author: "Eduardo Perozo, et al."
+#     journal: "Nature Structural & Molecular Biology"
+#     year: "2002"
+#     link: "https://www.nature.com/articles/nsb827"
+
+# Day 6 (September 14th):
+#   - title: "Natural Selection and the Complexity of the Gene"
+#     author: "Frank B. Salisbury"
+#     journal: "Nature"
+#     year: "1969"
+#     link: "https://science.sciencemag.org/content/303/5658/676"
+
+#   - title: "Post‐translational modification: nature's escape from genetic imprisonment and the basis for dynamic information encoding"
+#     author: "Sudhakaran Prabakaran, Jeremy Gunawardena"
+#     journal: "WIREs Systems Biology and Medicine"
+#     year: "2012"
+#     link: "https://onlinelibrary.wiley.com/doi/abs/10.1002/wsbm.1185"
+
+#   - title: "Biology is more theoretical than physics"
+#     author: "Jeremy Gunawardena"
+#     journal: "MBoC"
+#     year: "2017"
+#     link: "https://www.molbiolcell.org/doi/10.1091/mbc.e12-03-0227"
+
+# Day 10 (September 17th):
+#   - title: "Nothing in biology makes sense except in the light of evolution"
+#     author: "Theodosius Dobzhansky"
+#     journal: "The American Biology Teacher"
+#     year: "1973"
+#     link: "https://abt.ucpress.edu/content/35/3/125"
+
+#   - title: "Are theoretical results results?"
+#     author: "Raymond E Goldstein"
+#     journal: "eLife"
+#     year: "2018"
+#     link: "https://elifesciences.org/articles/40018"
+
+# Day 2 (September 10th):
+#   - title: "The bioenergetic costs of a gene"
+#     author: "Michael Lynch and Georgi Marinov"
+#     journal: "PNAS"
+#     year: "2015"
+#     PDF: "lynch_marinov2015.pdf"
+
+#   - title: "Sequences and consequences"
+#     author: "Sydney Brenner"
+#     journal: "Philos Trans R Soc Lond B Biol Sci."
+#     year: "2010"
+#     PDF: "brenner2010.pdf"
+
+#   - title: "Molecular 'vitalism'"
+#     author: "Kirschner et al."
+#     journal: "Cell"
+#     year: "2000"
+#     PDF: "kirschner2000.pdf"
+
+# Day 6 (September 15th):
+#   - title: "Point of View: Are theoretical results ‘Results’?"
+#     author: "Raymond Goldstein"
+#     journal: "eLife"
+#     year: "2018"
+#     PDF: "goldstein2018.pdf"
+
+#   - title: "Physical limits to magnetogenetics"
+#     author: "Markus Meister"
+#     journal: "eLife"
+#     year: "2016"
+#     PDF: "meister2016.pdf"
+
+#   - title: "Problems on the back of an envelope"
+#     author: "Anikeeva and Jasanoff"
+#     journal: "eLife"
+#     year: "2016"
+#     PDF: "anikeeva_jasanoff_2016.pdf"
+
+# Day 8 (September 17th):
+#   - title: "A Mathematician's Lament"
+#     author: "Paul Lockhart"
+#     journal: "Bellevue Literary Press"
+#     year: "2009"
+#     PDF: "lockhart2009.pdf"

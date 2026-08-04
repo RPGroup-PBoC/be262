@@ -1,0 +1,49 @@
+- name: Rob Phillips
+  title: Instructor
+  image: rob.jpg
+  email: phillips
+
+- name: Jané Kondev
+  title: Instructor
+  image: kondev-jane.jpg
+  email: kondev [at] brandeis [dot] edu
+
+- name: Sara Mahdavi
+  title: TA
+  image: sara.jpg
+  email: smahdavi [at] caltech [dot] edu
+
+- name: Heun Jin Lee
+  title: TA (experiments)
+  image: heunjin.jpg
+  email: heunjin [at] caltech [dot] edu
+
+- name: Ana Duarte
+  title: TA (experiments)
+  image: aduarte.jpg
+  email: aduarte [at] caltech [dot] edu
+
+- name: Rosalind Pan
+  title: TA (experiments)
+  image: rpan.jpg
+  email: rosalind [at] caltech [dot] edu
+
+- name: Minakshi Ashok
+  title: TA (experiments)
+  image: minakshi.jpg
+  email: mashok2 [at] caltech [dot] edu
+
+- name: Amin Tajik
+  title: TA (experiments)
+  image: amin.jpg
+  email: tajik [at] caltech [dot] edu
+
+- name: Andrea Herman 
+  title: TA (experiments)
+  image: AndreaHerman.jpg
+  email: amherman [at] berkeley [dot] edu
+
+- name: Aaron Fultineer
+  title: TA (experiments)
+  image: aaron.jpg
+  email: aaron_fultineer [at] berkeley [dot] edu
