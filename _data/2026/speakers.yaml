@@ -5,7 +5,7 @@
 
 - name: Pamela Bjorkmam
   link: "https://www.bjorklab.caltech.edu/"
-  image: pbjorkman.jpg
+  image: pamela.jpg
   date: Wed, Sept. 2nd, 1pm
 
 - name: Ray Jayawardhana (Caltech President)
@@ -13,10 +13,15 @@
   image: rjayawardhana.jpg
   date: Thurs, Sept. 3rd, 1pm
 
-- name: Ravi
-  # link: "https://rothenberglab.caltech.edu/"
-  # image: ellen_square.jpg
+- name: Guruswami (Ravi) Ravichandran
+  link: "https://ravi.caltech.edu/"
+  image: ravi.jpg
   date: Fri, Sept. 4th, 1pm
+
+- name: Zhen Chen
+  link: "https://zhenchenlab.caltech.edu/"
+  image: zchen.jpg
+  date: Fri, Sept. 5th, 1pm
   
 
 
