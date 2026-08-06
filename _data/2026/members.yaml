@@ -8,6 +8,11 @@
   image: kondev-jane.jpg
   email: kondev [at] brandeis [dot] edu
 
+- name: Hernan Garcia
+  title: Instructor
+  image: hernan.jpg
+  email: hggarcia [at] berkeley [dot] edu
+
 - name: Sara Mahdavi
   title: TA (computational)
   image: sara.jpg
