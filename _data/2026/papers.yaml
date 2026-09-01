@@ -3,12 +3,11 @@
 #   author: "Phillips, et al."
 #   link: "rpdata.caltech.edu/courses/course_papers/protected/PBoC3_Chapter_2.pdf"
 
-# Day 1 (September 9th):
-#   - title: "The biomass distribution on Earth"
-#     author: "Bar-On et al."
-#     journal: "PNAS"
-#     year: "2018"
-#     link: "https://www.pnas.org/content/115/25/6506"
+Day 1 (September 1st):
+  - title: "Self-Control Techniques of Famous Novelists"
+    author: "Irving Wallace"
+    PDF: "sWallace_writers_habits_elf-control-techniques-famous-novelists-jaba-1977.pdf"
+    comment: On pg. 2 of this interesting article on the habits of writers entitled “Self-Control Techniques of Famous Novelists” by Irving Wallace, he shows us some of the “appliances” used by writers such as Trollope, Balzac, Hemingway, Victor Hugo and others.  Note the systematic tables and graphs used by Wallace himself during the writing of some of his famous novels.
 
 #   - title: "The tragic matter"
 #     author: "Gottfried Schatz"
